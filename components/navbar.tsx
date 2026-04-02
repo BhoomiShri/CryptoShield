@@ -62,7 +62,9 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <AnimatedButton variant="primary" size="sm">
-              Get Protected
+              <Link href="/login" className="text-blue-600 hover:underline">
+                Get Protected
+              </Link>
             </AnimatedButton>
           </div>
 

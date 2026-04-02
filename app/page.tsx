@@ -37,16 +37,8 @@ export default function HomePage() {
         </div>
 
         <div className="relative max-w-5xl mx-auto text-center">
-          {/* Badge */}
-          <motion.div
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/15 border border-primary/30 mb-8"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Lock className="h-4 w-4 text-primary" />
-            <span className="text-sm font-semibold text-primary">Your Crypto Secured</span>
-          </motion.div>
+         
+          
 
           {/* Main heading */}
           <motion.h1
@@ -207,10 +199,7 @@ export default function HomePage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/15 border border-red-500/30 mb-6">
-              <AlertTriangle className="h-4 w-4 text-red-400" />
-              <span className="text-sm font-semibold text-red-400">Stay Alert</span>
-            </div>
+            
             <h2 
               className="text-3xl sm:text-4xl font-black text-foreground mb-4 tracking-tight"
               style={{ fontFamily: 'var(--font-display)', fontWeight: 900, textShadow: '0 2px 8px rgba(0,0,0,0.2)' }}
@@ -234,7 +223,7 @@ export default function HomePage() {
             <span className="font-semibold text-foreground">CryptoShield</span>
           </div>
           <p className="text-sm text-foreground/70">
-            2025 CryptoShield. Protecting you from digital threats.
+            2026 CryptoShield. Protecting you from digital threats.
           </p>
         </div>
       </footer>

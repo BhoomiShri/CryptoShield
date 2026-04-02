@@ -135,7 +135,7 @@ export function HorizontalScrollCards() {
           return (
             <motion.div
               key={feature.title}
-              className="flex-shrink-0 w-[85%] md:w-[500px] lg:w-[600px] snap-center"
+              className="flex-shrink-0 w-[85%] md:w-[700px] lg:w-[350px] snap-center"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
